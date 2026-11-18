@@ -2,6 +2,7 @@
   "name": "pepkio-nih-modular-budget-builder",
   "version": "0.1.0",
   "description": "Convert personnel effort and salary into NIH modular budget modules with cap-limited salary, fringe, F&A, and PHS398 justification text via the Pepkio Tools REST API.",
+  "readme": "README_NPM.md",
   "type": "module",
   "engines": {
     "node": ">=18"
@@ -20,6 +21,7 @@
   "files": [
     "dist",
     "README.md",
+    "README_NPM.md",
     "LICENSE"
   ],
   "scripts": {
@@ -43,8 +45,15 @@
     "budget",
     "modular",
     "phs398",
+    "salary-cap",
+    "effort-calculation",
+    "person-months",
+    "indirect-cost",
+    "fa-rate",
+    "mtdc",
     "administration",
     "lab-operations",
+    "bioinformatics",
     "pepkio",
     "typescript",
     "node",
